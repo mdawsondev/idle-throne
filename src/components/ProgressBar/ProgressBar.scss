@@ -1,0 +1,41 @@
+.progress-bar {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin: .3em 0 .8em;
+  position: relative;
+  user-select: none;
+  width: 24rem;
+  z-index: 3;
+
+  &--left {
+    width: 50%;
+  }
+
+  &--right {
+    align-items: center;
+    display: flex;
+    width: 50%;
+  }
+
+  &__bar {
+    border: 2px solid black;
+    font-weight: bolder;
+    text-align: center;
+    width: 10em;
+  }
+  &__button {
+    margin-left: 0.5rem;
+  }
+  &__counter {
+    margin-left: 0.5rem;
+  }
+  &__price {
+    margin-left: 0.5rem;
+  }
+
+  &__title {
+    font-weight: bold;
+    width: 10em;
+  }
+}

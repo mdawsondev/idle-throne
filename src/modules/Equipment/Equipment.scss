@@ -1,0 +1,74 @@
+.equipment {
+  display: flex;
+
+  $slot_scale: 5em;
+  $icon_scale: 4em;
+
+  &__slot {
+    background: url("/assets/fantasygui/fantasy_gui_png/button_09.png");
+    background-size: 5em;
+    display: flex;
+    height: $slot_scale;
+    width: $slot_scale;
+
+    &--grayscale {
+      filter: grayscale(1);
+    }
+
+    &--transparent {
+      opacity: .5;
+    }
+  }
+
+  &__icon {
+    background-size: 4em !important;
+    height: $icon_scale;
+    margin: .5em;
+    width: $icon_scale;
+
+    &--equipped {
+      margin: 0;
+      position:absolute;
+    }
+
+    &--chest {
+      background: url("/assets/fantasyequipment/armor/9587_ezzp.png");
+    }
+    &--back {
+      background: url("/assets/fantasyequipment/cloak/9638_ezzp.png");
+    }
+    &--belt {
+      background: url("/assets/fantasyequipment/belts/9645_ezzp.PNG");
+    }
+    &--boots {
+      background: url("/assets/fantasyequipment/boots/9868_ezzp.PNG");
+    }
+    &--bracers {
+      background: url("/assets/fantasyequipment/bracers/9785_ezzp.PNG");
+    }
+    &--gloves {
+      background: url("/assets/fantasyequipment/gloves/9617_ezzp.png");
+    }
+    &--head {
+      background: url("/assets/fantasyequipment/helmet/9655_ezzp.PNG");
+    }
+    &--legs {
+      background: url("/assets/fantasyequipment/pants/9606_ezzp.png");
+    }
+    &--mainHand {
+      background: url("/assets/tradingicons/TradingIcons_t/TradingIcons_23_t.PNG");
+    }
+    &--neck {
+      background: url("/assets/fantasyequipment/neckleces/9778_ezzp.PNG");
+    }
+    &--ring1 {
+      background: url("/assets/fantasyequipment/rings/060_trv.png");
+    }
+    &--ring2 {
+      background: url("/assets/fantasyequipment/rings/060_trv.png");
+    }
+    &--shoulders {
+      background: url("/assets/fantasyequipment/shoulders/9613_ezzp.png");
+    }
+  }
+}

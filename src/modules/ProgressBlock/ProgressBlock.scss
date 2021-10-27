@@ -1,0 +1,43 @@
+.progress-block {
+  $offset-left: 4rem;
+  $offset-top: 5rem;
+  width: max-content;
+
+  &__bars {
+    left: $offset-top;
+    position: relative;
+    top: $offset-left;
+  }
+
+  &__ui {
+    position: absolute;
+    transform: scale(.8);
+    transform-origin: left top;
+
+    &--top {
+      z-index: 2;
+    }
+
+    &--middle {
+      margin-left: 2em;
+      margin-top: 2em;
+      z-index: 2;
+    }
+
+    &--bottom {
+      margin-left: 2em;
+      margin-top: 2em;
+      z-index: 2;
+    }
+  }
+
+  &__title {
+    font-family: 'Skranji';
+    font-size: 1.8rem;
+    left: $offset-left;
+    position: relative;
+    text-align: center;
+    top: 2em;
+    z-index: 3;
+  }
+}

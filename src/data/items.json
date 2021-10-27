@@ -1,0 +1,38 @@
+[
+  {
+    "type": "consumable",
+    "slot": null,
+    "name": "Potion of Wealth",
+    "description": "Drink this to get money.",
+    "icon": "/assets/tradingicons/TradingIcons_t/TradingIcons_19_t.PNG",
+    "rarity": 3,
+    "bonuses": {
+      "gold": 0,
+      "damage": 5
+    }
+  },
+  {
+    "type": "equipable",
+    "slot": "mainHand",
+    "name": "Sword of Stabbing",
+    "description": "This sword was made for stabbing.",
+    "icon": "/assets/tradingicons/TradingIcons_t/TradingIcons_49_t.PNG",
+    "rarity": 5,
+    "bonuses": {
+      "gold": 0,
+      "damage": 5
+    }
+  },
+  {
+    "type": "equipable",
+    "slot": "mainHand",
+    "name": "Staff of Staffing",
+    "description": "This staff was made for staffing.",
+    "icon": "/assets/tradingicons/TradingIcons_t/TradingIcons_51_t.PNG",
+    "rarity": 1,
+    "bonuses": {
+      "gold": 0,
+      "damage": 5
+    }
+  }
+]

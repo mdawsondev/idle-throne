@@ -1,0 +1,44 @@
+.item {
+  &__details {
+    background-color: #222;
+    border: 2px solid gold;
+    border-radius: 0.2rem;
+    display: none;
+    padding: 1em;
+    position: fixed;
+    width: 20rem;
+
+    &--flex {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--name {
+      font-weight: bolder;
+      &-0 { // Trash
+        color: grey;
+      }
+      &-1 { // Common
+        color: white;
+      }
+      &-2 { // Uncommon
+        color: green;
+      }
+      &-3 { // Rare
+        color: blue;
+      }
+      &-4 { // Epic
+        color: purple;
+      }
+      &-5 { // Legendary
+        color: orange;
+      }
+    }
+
+    &--description {
+      color: white;
+      font-style: italic
+    }
+  }
+
+}

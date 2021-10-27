@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Goblin 1",
+    "icon": "/assets/mobsavataricons/goblin_01.png",
+    "facing": "left"
+  },
+  {
+    "name": "Goblin 2",
+    "icon": "/assets/mobsavataricons/goblin_02.png",
+    "facing": "right"
+  },
+  {
+    "name": "Goblin 3",
+    "icon": "/assets/mobsavataricons/goblin_03.png",
+    "facing": "right"
+  },
+  {
+    "name": "Goblin 4",
+    "icon": "/assets/mobsavataricons/goblin_04.png",
+    "facing": "right"
+  }
+]

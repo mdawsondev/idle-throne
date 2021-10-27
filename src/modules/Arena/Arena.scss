@@ -1,0 +1,33 @@
+$unit-size: 10em;
+$health-size: $unit-size * 0.08;
+
+.arena {
+  display: flex;
+
+  &__health {
+    &--inner {
+      background-color: red;
+      height: $health-size;
+    }
+
+    &--outer {
+      background-color: white;
+      border: 2px solid black;
+      margin: .5em auto;
+      width: 90%;
+    }
+  }
+
+  &__unit {
+    height: $unit-size;
+    width: $unit-size;
+
+    &__icon {
+      max-height: 100%;
+      max-width: 100%;
+      &--right {
+        transform: scaleX(-1);
+      }
+    }
+  }
+}

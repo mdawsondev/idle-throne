@@ -1,0 +1,54 @@
+.ui-window {
+  $offset-left: 4rem;
+  $offset-top: 5rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -70%);
+  width: 32rem;
+
+  &__bars {
+    left: $offset-top;
+    position: relative;
+    top: $offset-left;
+  }
+
+  &__wrapper {
+    position: absolute;
+    transform: scale(.8);
+    transform-origin: left top;
+
+    &--close {
+      cursor: pointer;
+      margin-top: 4.2rem;
+      margin-left: 30.8rem;
+      transform: scale(.5);
+      z-index: 3;
+    }
+
+    &--top {
+      z-index: 2;
+    }
+
+    &--middle {
+      margin-left: 2em;
+      margin-top: 2em;
+      z-index: 2;
+    }
+
+    &--bottom {
+      margin-left: 2em;
+      margin-top: 2em;
+      z-index: 2;
+    }
+  }
+
+  &__title {
+    font-family: 'Skranji';
+    font-size: 1.8rem;
+    position: relative;
+    text-align: center;
+    top: 2em;
+    z-index: 3;
+  }
+}

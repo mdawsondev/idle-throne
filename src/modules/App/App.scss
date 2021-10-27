@@ -1,0 +1,17 @@
+body {
+  background-color: bisque;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .content {
+    margin: 40px;
+  }
+}

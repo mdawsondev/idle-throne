@@ -1,0 +1,61 @@
+.ui-border {
+  &__bottom {
+    background-image: url("../../assets/casualui/Casual_UI_png/CasualUI_13_1.png");
+    bottom: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+
+    &--left {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      transform: scaleX(-1);
+      z-index: 1;
+    }
+    &--right {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  &__left {
+    background-image: url("../../assets/casualui/Casual_UI_png/CasualUI_13_1.png");
+    left: calc(-50% + 20px);
+    height: 40px;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 100%;
+    z-index: 0;
+  }
+
+  &__right {
+    background-image: url("../../assets/casualui/Casual_UI_png/CasualUI_13_1.png");
+    height: 40px;
+    position: absolute;
+    right: calc(-50% + 20px);
+    transform: rotate(90deg);
+    width: 100%;
+    z-index: 0;
+  }
+
+  &__top {
+    background-image: url("../../assets/casualui/Casual_UI_png/CasualUI_13_1.png");
+    top: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+
+    &--left {
+      position: absolute;
+      left: 0;
+    }
+    &--right {
+      position: absolute;
+      right: 0;
+      transform: scaleX(-1);
+      z-index: 1;
+    }
+  }
+}

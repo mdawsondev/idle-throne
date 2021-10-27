@@ -1,0 +1,14 @@
+{
+  "counterName": "Peasant",
+  "counterTitles": [
+    "Petty Thief",
+    "Spymaster",
+    "Skilled Soldier",
+    "Trained Squadron",
+    "Knight Platoon",
+    "Horseback Batallion",
+    "Grand Army"
+  ],
+  "currencyName": "Gold",
+  "tickName": "Second"
+}
