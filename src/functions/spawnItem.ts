@@ -7,7 +7,6 @@ export function spawnItem(): ItemDetails {
   const drop = {...itemArr[dropSelect]}; // Clone to prevent pointers to original items.
 
   drop.id = Math.round(Math.random() * Math.pow(10, 10));
-  console.log(drop.id);
 
   return drop;
 }

@@ -90,7 +90,6 @@ export class App extends React.Component<{}, AppState> implements IApp {
   }
 
   handleClickCounter = (clickedCounter: Counter) => {
-    console.log(clickedCounter);
     const { counters, currency } = this.state;
     const affordable = currency >= clickedCounter.price;
 
